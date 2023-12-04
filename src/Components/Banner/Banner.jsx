@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../Button'
-
+import BannerV from '../../assets/banner-Vector.png'
 const Banner = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Banner = () => {
             <Button BtnName='Who We Are' className='px-[63px] py-[19px] bg-white font-ibn font-bold text-lg rounded-[10px] z-10 relative after:content-[" "] after:absolute after:top-0 after:left-0 after:w-0 after:rounded-[10px] after:z-[-1] hover:after:bg-Orange hover:text-white hover:duration-500 hover:after:w-full  hover:after:h-full hover:after:duration-1000 hover:after:ease-in-out'/>
         </div>
         <div>
-            <img src="src/assets/banner-Vector.png" alt="" className='w-full absolute bottom-0'/>
+            <img src={BannerV} alt="" className='w-full absolute bottom-0'/>
         </div> 
     </div>
      </div>
